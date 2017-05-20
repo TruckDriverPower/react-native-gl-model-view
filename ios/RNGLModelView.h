@@ -5,7 +5,7 @@
 //  RNGLModelView.h
 //
 
-#import <GLView/GLModelView.h>
+#import "GLView/GLModelView.h"
 
 @interface RNGLModelView : GLModelView
 

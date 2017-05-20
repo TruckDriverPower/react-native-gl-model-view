@@ -40,7 +40,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
-
+#import <UIKit/UIKit.h>
 
 void CGRectGetGLCoords(CGRect rect, GLfloat *coords);
 void GLLoadCATransform3D(CATransform3D transform);
