@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1A35021ED0CB760032CED9 /* GLUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F01ED0CB5D0032CED9 /* GLUtils.h */; };
+		5D1A35031ED0CB760032CED9 /* GLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F11ED0CB5D0032CED9 /* GLUtils.m */; };
+		5D1A35041ED0CB760032CED9 /* GLView.h in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F21ED0CB5D0032CED9 /* GLView.h */; };
+		5D1A35051ED0CB760032CED9 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F31ED0CB5D0032CED9 /* GLView.m */; };
+		5D1A35061ED0CB760032CED9 /* GLImage.h in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F51ED0CB5D0032CED9 /* GLImage.h */; };
+		5D1A35071ED0CB760032CED9 /* GLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F61ED0CB5D0032CED9 /* GLImage.m */; };
+		5D1A35081ED0CB760032CED9 /* GLImageMap.h in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F71ED0CB5D0032CED9 /* GLImageMap.h */; };
+		5D1A35091ED0CB760032CED9 /* GLImageMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F81ED0CB5D0032CED9 /* GLImageMap.m */; };
+		5D1A350A1ED0CB760032CED9 /* GLImageView.h in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34F91ED0CB5D0032CED9 /* GLImageView.h */; };
+		5D1A350B1ED0CB760032CED9 /* GLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34FA1ED0CB5D0032CED9 /* GLImageView.m */; };
+		5D1A350C1ED0CB770032CED9 /* GLLight.h in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34FC1ED0CB5D0032CED9 /* GLLight.h */; };
+		5D1A350D1ED0CB770032CED9 /* GLLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34FD1ED0CB5D0032CED9 /* GLLight.m */; };
+		5D1A350E1ED0CB770032CED9 /* GLModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34FE1ED0CB5D0032CED9 /* GLModel.h */; };
+		5D1A350F1ED0CB770032CED9 /* GLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A34FF1ED0CB5D0032CED9 /* GLModel.m */; };
+		5D1A35101ED0CB770032CED9 /* GLModelView.h in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A35001ED0CB5D0032CED9 /* GLModelView.h */; };
+		5D1A35111ED0CB770032CED9 /* GLModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A35011ED0CB5D0032CED9 /* GLModelView.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNGLModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNGLModelView.m */; };
 		D913528A1EA2F442001C1909 /* RNGLModelViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D91352891EA2F442001C1909 /* RNGLModelViewManager.m */; };
 		D913528B1EA2F477001C1909 /* RNGLModelView.h in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5881CC2AC0600A0062D /* RNGLModelView.h */; };
@@ -27,6 +43,22 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNGLModelView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNGLModelView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1A34F01ED0CB5D0032CED9 /* GLUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUtils.h; sourceTree = "<group>"; };
+		5D1A34F11ED0CB5D0032CED9 /* GLUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUtils.m; sourceTree = "<group>"; };
+		5D1A34F21ED0CB5D0032CED9 /* GLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		5D1A34F31ED0CB5D0032CED9 /* GLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		5D1A34F51ED0CB5D0032CED9 /* GLImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLImage.h; sourceTree = "<group>"; };
+		5D1A34F61ED0CB5D0032CED9 /* GLImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLImage.m; sourceTree = "<group>"; };
+		5D1A34F71ED0CB5D0032CED9 /* GLImageMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLImageMap.h; sourceTree = "<group>"; };
+		5D1A34F81ED0CB5D0032CED9 /* GLImageMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLImageMap.m; sourceTree = "<group>"; };
+		5D1A34F91ED0CB5D0032CED9 /* GLImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLImageView.h; sourceTree = "<group>"; };
+		5D1A34FA1ED0CB5D0032CED9 /* GLImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLImageView.m; sourceTree = "<group>"; };
+		5D1A34FC1ED0CB5D0032CED9 /* GLLight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLight.h; sourceTree = "<group>"; };
+		5D1A34FD1ED0CB5D0032CED9 /* GLLight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLight.m; sourceTree = "<group>"; };
+		5D1A34FE1ED0CB5D0032CED9 /* GLModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLModel.h; sourceTree = "<group>"; };
+		5D1A34FF1ED0CB5D0032CED9 /* GLModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLModel.m; sourceTree = "<group>"; };
+		5D1A35001ED0CB5D0032CED9 /* GLModelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLModelView.h; sourceTree = "<group>"; };
+		5D1A35011ED0CB5D0032CED9 /* GLModelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLModelView.m; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNGLModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGLModelView.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNGLModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGLModelView.m; sourceTree = "<group>"; };
 		D91352881EA2F442001C1909 /* RNGLModelViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGLModelViewManager.h; sourceTree = "<group>"; };
@@ -55,12 +87,60 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				5D1A34EE1ED0CB5D0032CED9 /* GLView */,
 				B3E7B5881CC2AC0600A0062D /* RNGLModelView.h */,
 				B3E7B5891CC2AC0600A0062D /* RNGLModelView.m */,
 				D91352881EA2F442001C1909 /* RNGLModelViewManager.h */,
 				D91352891EA2F442001C1909 /* RNGLModelViewManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		5D1A34EE1ED0CB5D0032CED9 /* GLView */ = {
+			isa = PBXGroup;
+			children = (
+				5D1A34EF1ED0CB5D0032CED9 /* Core */,
+				5D1A34F41ED0CB5D0032CED9 /* Images */,
+				5D1A34FB1ED0CB5D0032CED9 /* Models */,
+			);
+			path = GLView;
+			sourceTree = "<group>";
+		};
+		5D1A34EF1ED0CB5D0032CED9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5D1A34F01ED0CB5D0032CED9 /* GLUtils.h */,
+				5D1A34F11ED0CB5D0032CED9 /* GLUtils.m */,
+				5D1A34F21ED0CB5D0032CED9 /* GLView.h */,
+				5D1A34F31ED0CB5D0032CED9 /* GLView.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5D1A34F41ED0CB5D0032CED9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5D1A34F51ED0CB5D0032CED9 /* GLImage.h */,
+				5D1A34F61ED0CB5D0032CED9 /* GLImage.m */,
+				5D1A34F71ED0CB5D0032CED9 /* GLImageMap.h */,
+				5D1A34F81ED0CB5D0032CED9 /* GLImageMap.m */,
+				5D1A34F91ED0CB5D0032CED9 /* GLImageView.h */,
+				5D1A34FA1ED0CB5D0032CED9 /* GLImageView.m */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5D1A34FB1ED0CB5D0032CED9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D1A34FC1ED0CB5D0032CED9 /* GLLight.h */,
+				5D1A34FD1ED0CB5D0032CED9 /* GLLight.m */,
+				5D1A34FE1ED0CB5D0032CED9 /* GLModel.h */,
+				5D1A34FF1ED0CB5D0032CED9 /* GLModel.m */,
+				5D1A35001ED0CB5D0032CED9 /* GLModelView.h */,
+				5D1A35011ED0CB5D0032CED9 /* GLModelView.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +199,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1A35021ED0CB760032CED9 /* GLUtils.h in Sources */,
+				5D1A35031ED0CB760032CED9 /* GLUtils.m in Sources */,
+				5D1A35041ED0CB760032CED9 /* GLView.h in Sources */,
+				5D1A35051ED0CB760032CED9 /* GLView.m in Sources */,
+				5D1A35061ED0CB760032CED9 /* GLImage.h in Sources */,
+				5D1A35071ED0CB760032CED9 /* GLImage.m in Sources */,
+				5D1A35081ED0CB760032CED9 /* GLImageMap.h in Sources */,
+				5D1A35091ED0CB760032CED9 /* GLImageMap.m in Sources */,
+				5D1A350A1ED0CB760032CED9 /* GLImageView.h in Sources */,
+				5D1A350B1ED0CB760032CED9 /* GLImageView.m in Sources */,
+				5D1A350C1ED0CB770032CED9 /* GLLight.h in Sources */,
+				5D1A350D1ED0CB770032CED9 /* GLLight.m in Sources */,
+				5D1A350E1ED0CB770032CED9 /* GLModel.h in Sources */,
+				5D1A350F1ED0CB770032CED9 /* GLModel.m in Sources */,
+				5D1A35101ED0CB770032CED9 /* GLModelView.h in Sources */,
+				5D1A35111ED0CB770032CED9 /* GLModelView.m in Sources */,
 				D913528C1EA2F479001C1909 /* RNGLModelViewManager.h in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNGLModelView.m in Sources */,
 				D913528A1EA2F442001C1909 /* RNGLModelViewManager.m in Sources */,
